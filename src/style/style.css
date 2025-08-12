@@ -147,7 +147,28 @@
       .btn-whatsapp:hover {
         background: #1ebe57;
       }
+
+    .whatsapp-float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  .whatsapp-float-btn:hover {
+    background-color: #1ebe57;
       /* Marcas */
+  }
       .marcas-section {
         background: #f0f0f0;
         padding: 40px 20px;
